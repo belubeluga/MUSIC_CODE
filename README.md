@@ -1,7 +1,7 @@
 # MUSIC_CODE
  Música y Matemática
 01:43 ━━━━●───── 03:50
- ⇆ㅤ ㅤ◁ㅤ ❚❚ ㅤ▷ ㅤㅤ↻﻿
+ ⇆ㅤ ㅤ◁ㅤ ❚❚ ㅤ▷ ㅤㅤ↻
 
 ABOUT ☕︎
 Exploraciones Creativas sin fin alguno
