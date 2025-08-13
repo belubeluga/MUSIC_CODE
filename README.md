@@ -8,15 +8,15 @@ Endless creative explorations
 
 In my journey to blend music and mathematics—my two greatest passions—this repository hosts my personal experiments. From ignorance I explore, try, fail, and occasionally succeed in coding tools and techniques that mix music, linear algebra, signal processing, numerical methods, and machine learning.
 
-### ★ CONTENT
+### ᯓ★ CONTENT
 • **Classification** – Algorithms that identify musical genres or patterns.
 • **SVD** – Audio separation and compression.
 • **Filters** – Equalizers and audio-effects design.
 
-### ★ OBJECTIVE
+### ᯓ★ OBJECTIVE
 Explore the infinite possibilities where music meets science. Whether it is compressing signals, classifying genres, or designing filters that reshape sonic perception, this repository is conceived as a creative laboratory for innovation and learning.
 
-### ★ TECHY STUFF
+### ᯓ★ TECHY STUFF
 Language: Python  
 Libraries: `numpy`, `scipy`, `librosa`, `matplotlib`, `scikit-learn`, `tensorflow`, `pydub`, `soundfile`, `joblib`  
 Workspace: Jupyter Notebooks for interactive visualization & experimentation.
@@ -78,7 +78,7 @@ _____░▒▓██
 
 
 
-
+## -------------------------------------------
 
 ### SOBRE ☕︎
 Exploraciones Creativas sin fin alguno
@@ -88,16 +88,16 @@ Desde mi ignorancia exploro, intento desarrollar cosas y varias veces fracaso, p
 
 ▶︎·၊၊||၊|။||||၊၊||၊|။||||၊၊||၊|။||||။·၊၊||၊|။||||။||၊|။||||၊၊||၊|။||||၊၊||၊|။||||။·၊၊||၊|။||||။||၊|။||||၊၊||၊|။||||၊၊||၊|။|
 
-ᯓ★ CONTENIDO 
+### ᯓ★ CONTENIDO 
 Clasificación: Algoritmos para identificar géneros o patrones musicales.
 SVD: Separación y compresión de audio.
 Filtros: Creación de ecualizadores y efectos de sonido.
 
-ᯓ★ OBJETIVO
+### ᯓ★ OBJETIVO
 Explorar las posibilidades infinitas donde la música y la ciencia se encuentran. 
 Ya sea comprimiendo señales, clasificando géneros o diseñando filtros que alteren la percepción sonora, este repositorio está pensado como un laboratorio creativo para innovar y aprender.
 
-ᯓ★ TECHY STUFF
+### ᯓ★ TECHY STUFF
 Lenguaje: Python
 Bibliotecas: numpy, scipy, librosa, matplotlib, sklearn, tensorflow
 Frameworks: Jupyter Notebooks para la visualización y experimentación interactiva.
