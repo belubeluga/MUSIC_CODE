@@ -101,4 +101,5 @@ Ya sea comprimiendo señales, clasificando géneros o diseñando filtros que alt
 Lenguaje: Python
 Bibliotecas: numpy, scipy, librosa, matplotlib, sklearn, tensorflow
 Frameworks: Jupyter Notebooks para la visualización y experimentación interactiva.
->>>>>>> 87ae30a (update readme)
+
+
