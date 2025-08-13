@@ -1,12 +1,14 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# source venv/bin/activate
+
 import librosa
 import numpy as np
 import soundfile as sf
 
 # Cargar el archivo de audio
-y, sr = librosa.load("/Users/belengotz/Desktop/The Beatles - Hey Jude - TheBeatlesVEVO (youtube).mp3", sr=None)
+y, sr = librosa.load("/Users/belengotz/Desktop/MUSIC_CODE/Copia de Joan Jett - I Love Rock 'n' Roll (lyrics).wav", sr=None)
 
 # Aplicar STFT para obtener una matriz de tiempo-frecuencia
 S = librosa.stft(y)
@@ -43,37 +45,38 @@ sf.write("instrumentos_svd_separados_con_volumen.wav", y_instr, sr)
 
 
 # Configuración para subplots
-plt.figure(figsize=(15, 20))
+plt.figure(figsize=(10, 5))
 
 # 1. Espectrograma original
-plt.subplot(4, 1, 1)
 librosa.display.specshow(librosa.amplitude_to_db(np.abs(S), ref=np.max),
                          sr=sr, x_axis='time', y_axis='log', cmap='magma')
 plt.title("Espectrograma original")
 plt.colorbar(format="%+2.0f dB")
+plt.show()
 
 # 2. Espectrogramas de componentes
-plt.subplot(4, 1, 2)
+plt.figure(figsize=(10, 5))
 librosa.display.specshow(librosa.amplitude_to_db(np.abs(S_harmonic), ref=np.max),
                          sr=sr, x_axis='time', y_axis='log', cmap='magma')
 plt.title("Componente armónico (voz)")
 plt.colorbar(format="%+2.0f dB")
+plt.show()
 
-plt.subplot(4, 1, 3)
+plt.figure(figsize=(10, 5))
 librosa.display.specshow(librosa.amplitude_to_db(np.abs(S_percussive), ref=np.max),
                          sr=sr, x_axis='time', y_axis='log', cmap='magma')
 plt.title("Componente percutivo (instrumentos)")
 plt.colorbar(format="%+2.0f dB")
+plt.show()
 
 # 3. Valores singulares
-plt.subplot(4, 1, 4)
+plt.figure(figsize=(10, 5))
 plt.plot(Sigma, marker='o')
 plt.title("Valores singulares (\u03A3)")
 plt.xlabel("Índice del valor singular")
 plt.ylabel("Magnitud")
 plt.grid()
 
-plt.tight_layout()
 plt.show()
 
 # 4. Reconstrucción espectral
@@ -83,13 +86,13 @@ librosa.display.specshow(librosa.amplitude_to_db(S_vox_magnitude, ref=np.max),
                          sr=sr, x_axis='time', y_axis='log', cmap='magma')
 plt.title("Espectrograma reconstruido (voz con SVD)")
 plt.colorbar(format="%+2.0f dB")
+plt.show()
 
 plt.subplot(2, 1, 2)
 librosa.display.specshow(librosa.amplitude_to_db(np.abs(S_percussive), ref=np.max),
                          sr=sr, x_axis='time', y_axis='log', cmap='magma')
 plt.title("Espectrograma reconstruido (instrumentos)")
 plt.colorbar(format="%+2.0f dB")
-
 plt.tight_layout()
 plt.show()
 
