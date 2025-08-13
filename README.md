@@ -1,5 +1,5 @@
 01:43 ━━━━●───── 03:50
-<<<<<<< HEAD
+
 =======
  ⇆ㅤ ㅤ◁ㅤ ❚❚ ㅤ▷ ㅤㅤ↻
 
@@ -52,6 +52,7 @@ Pull-requests, issues, and ideas are welcome! If you find a bug or have an impro
 
 > “Mathematics is the music of reason, and music is the mathematics of emotion.”
 
+```
 _░▒███████
 ░██▓▒░░▒▓██
 ██▓▒░__░▒▓██___██████
@@ -71,6 +72,13 @@ _____░▒▓██
 
 
 ▒▒▒▒▒▒▒▒▒▒ 100% ᴄᴏᴍᴘʟᴇᴛᴇ!
+
+```
+
+
+
+
+
 
 ### SOBRE ☕︎
 Exploraciones Creativas sin fin alguno
